@@ -41,7 +41,7 @@ public class CardsTest {
 
     @Test
     void shouldPositiveTest1() {
-        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("2323");
+        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Колонтаевский Владислав");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79012345678");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
         driver.findElement(By.cssSelector("button")).click();
